@@ -7,7 +7,7 @@ func main() {
 	var n int
 	fmt.Println("Enter the Range :")
 	fmt.Scanln(&n)
-	fmt.Printf("Prime Number between 1 and %d", n)
+	fmt.Printf("Prime Number between 1 and %d\n", n)
 	for i := 1; i < n; i++ {
 		isPrime := true
 		for j := 2; j < i; j++ {
